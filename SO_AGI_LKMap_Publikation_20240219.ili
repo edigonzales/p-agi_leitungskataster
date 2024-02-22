@@ -24,6 +24,7 @@ VERSION "2024-02-19"  =
     Datenherr : TEXT*512;
     Datenlieferant : TEXT*512;
     letzte_Aenderung : INTERLIS.XMLDate;
+    Textinhalt : TEXT*1024;
   END LKObjekt;
 
   CLASS LKFlaeche (ABSTRACT)
