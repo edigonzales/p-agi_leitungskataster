@@ -271,7 +271,7 @@
           </callout>
         </settings>
       </rule>
-      <rule key="{f3c8a1a3-3562-42af-bf7e-73f7eecc058e}" scalemindenom="501" filter="&quot;objektart&quot;  != 'Wasser.Fernwirkkabel'  &quot;astatus&quot; != 'tot'" scalemaxdenom="1000">
+      <rule key="{f3c8a1a3-3562-42af-bf7e-73f7eecc058e}" scalemindenom="501" filter="&quot;objektart&quot;  != 'Wasser.Fernwirkkabel'  AND &quot;astatus&quot; != 'tot'" scalemaxdenom="1000">
         <settings calloutType="simple">
           <text-style fontSize="7" blendMode="0" fontUnderline="0" forcedItalic="0" allowHtml="0" fontFamily="CadastraCondensed" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" fontStrikeout="0" fontWordSpacing="0" multilineHeightUnit="Percentage" forcedBold="0" textOrientation="horizontal" isExpression="0" multilineHeight="1" textOpacity="1" textColor="0,0,245,255" fontLetterSpacing="0" fieldName="textinhalt" legendString="Aa" fontKerning="1" fontItalic="0" capitalization="0" namedStyle="Regular Regular" fontSizeUnit="Point" fontWeight="50" useSubstitutions="0">
             <families/>
@@ -395,7 +395,7 @@
           </callout>
         </settings>
       </rule>
-      <rule key="{5e132bc3-9cbc-4cb6-8fe2-318684957bf3}" scalemindenom="1" filter="&quot;objektart&quot;  = 'Wasser.Fernwirkkabel'  &quot;astatus&quot; != 'tot'" scalemaxdenom="500">
+      <rule key="{5e132bc3-9cbc-4cb6-8fe2-318684957bf3}" scalemindenom="1" filter="&quot;objektart&quot;  = 'Wasser.Fernwirkkabel' AND  &quot;astatus&quot; != 'tot'" scalemaxdenom="500">
         <settings calloutType="simple">
           <text-style fontSize="10" blendMode="0" fontUnderline="0" forcedItalic="0" allowHtml="0" fontFamily="CadastraCondensed" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" fontStrikeout="0" fontWordSpacing="0" multilineHeightUnit="Percentage" forcedBold="0" textOrientation="horizontal" isExpression="1" multilineHeight="1" textOpacity="1" textColor="0,0,245,255" fontLetterSpacing="0" fieldName="'W FWK'" legendString="Aa" fontKerning="1" fontItalic="0" capitalization="0" namedStyle="Regular Regular" fontSizeUnit="Point" fontWeight="50" useSubstitutions="0">
             <families/>
@@ -519,7 +519,7 @@
           </callout>
         </settings>
       </rule>
-      <rule key="{960fb2f2-6da8-4273-ac10-89bf373f44ba}" scalemindenom="501" filter="&quot;objektart&quot; = 'Wasser.Fernwirkkabel'  &quot;astatus&quot; != 'tot'" scalemaxdenom="1000">
+      <rule key="{960fb2f2-6da8-4273-ac10-89bf373f44ba}" scalemindenom="501" filter="&quot;objektart&quot; = 'Wasser.Fernwirkkabel' AND &quot;astatus&quot; != 'tot'" scalemaxdenom="1000">
         <settings calloutType="simple">
           <text-style fontSize="7" blendMode="0" fontUnderline="0" forcedItalic="0" allowHtml="0" fontFamily="CadastraCondensed" fontSizeMapUnitScale="3x:0,0,0,0,0,0" previewBkgrdColor="255,255,255,255" fontStrikeout="0" fontWordSpacing="0" multilineHeightUnit="Percentage" forcedBold="0" textOrientation="horizontal" isExpression="1" multilineHeight="1" textOpacity="1" textColor="0,0,245,255" fontLetterSpacing="0" fieldName="'W FWK'" legendString="Aa" fontKerning="1" fontItalic="0" capitalization="0" namedStyle="Regular Regular" fontSizeUnit="Point" fontWeight="50" useSubstitutions="0">
             <families/>
